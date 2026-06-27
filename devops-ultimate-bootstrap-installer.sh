@@ -296,7 +296,8 @@ step_apt_update() {
 step_install_base_tools() {
     DEBIAN_FRONTEND=noninteractive apt-get install -y -qq \
         git curl wget vim nano unzip jq net-tools htop \
-        ca-certificates gnupg apt-transport-https
+        ca-certificates gnupg apt-transport-https \
+        conntrack socat ebtables ethtool
 }
 
 ###############################################################################
