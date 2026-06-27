@@ -33,7 +33,7 @@
 #       underlying issue (resources, network, etc.) is fixed.
 #     - Full log of every command's real output: /var/log/devops-install.log
 #
-#   Author: Generated as a Senior DevOps Engineer reference implementation.
+#   Author: Mostafa Mohammed Ahmed
 #
 ###############################################################################
 
@@ -773,3 +773,4 @@ main() {
 }
 
 main "$@"
+echo " Thank you for using TitanStack Project "
